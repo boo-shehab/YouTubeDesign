@@ -82,3 +82,117 @@ body{
     font-size: 21px;
 }
 /* End Heading */
+/* Start landing */
+.contain{
+    width: 100%;
+    height: 100vh;
+    background-color: #eee;
+    display: grid;
+    grid-template-columns: 386px calc(100% - 386px);
+    padding-top: 20px;
+}
+.contain .sidebar{
+    background-color: #eee;
+    width: 100%;
+    height: 100%;
+}
+.contain .sidebar .random-video{
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 0 10px 10px;
+}
+.contain .sidebar img{
+    width: 169px;
+    height: 94px;
+}
+.contain .sidebar .video-info{
+    direction: rtl;
+    margin-right: 10px;
+    display: grid;
+    align-content: space-evenly;
+
+}
+.contain .sidebar .video-name{
+    font-size: 15px;
+    color: black;
+}
+.contain .sidebar .channel-name{
+    color: #919191;
+    font-size: 15px;
+}
+.contain .sidebar .viewer{
+    color: #919191;
+    font-size: 15px;
+}
+.contain .video{
+    background-color: #eee;
+    width: 100%;
+    height: 100%;
+    direction: rtl;
+}
+.contain .video iframe{
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    min-width: 640px;
+    width: 100%;
+}
+.contain .video h1{
+    font-size: 1.5em;
+    margin: 0 0 10px;
+}
+.contain .video p{
+    color: #666;
+    overflow: hidden;
+    height: 35px;
+}
+.contain .video .show{
+    direction: ltr;
+    color: #666;
+    cursor: pointer;
+}
+.contain .video ul{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+    margin-top: 20px;
+    list-style: none;
+    font-size: 20px;
+}
+.contain .video .channel-box{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+    align-items: center;
+    border-radius: 10px;
+    border: 1px solid #cbcbcb;
+    padding: 10px;
+}
+.contain .video .channel-box .right-info{
+    display: flex;
+    align-items: center;
+}
+.contain .video .channel-box .right-info img{
+    width: 36px;
+    border-radius: 50%;
+}
+.contain .video .channel-box .right-info .channel-info{
+    
+}
+.contain .video .channel-box .right-info .channel-info span{
+    color: #666;
+}
+.contain .video .channel-box .left-info{
+    
+}
+.contain .video .channel-box .left-info button{
+    background-color: #bf1d1d;
+    color: white;
+    border-radius: 2px;
+    border: none;
+    padding: 10px;
+}
+.contain .video .channel-box .left-info i{
+    display: none;
+}
+/* End landing */
